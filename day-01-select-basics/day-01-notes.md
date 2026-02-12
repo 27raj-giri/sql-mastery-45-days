@@ -1,13 +1,12 @@
-# 📅 Day 1 – SELECT Basics
+# Day 1 – SELECT Basics
 
-## 🎯 Objective
+## Objective
 Build a strong foundation in SQL by learning how to retrieve data using SELECT queries.
 
----
+--------------------------------------------------
 
-# 🧠 Concepts Covered
+WHAT IS SQL
 
-## 1. What is SQL?
 SQL (Structured Query Language) is used to interact with relational databases.
 
 It allows you to:
@@ -16,135 +15,162 @@ It allows you to:
 - Update data
 - Delete data
 
----
+--------------------------------------------------
 
-## 2. SELECT Statement
+SELECT STATEMENT
 
-### Basic Syntax
-```sql
+Basic Syntax:
+
 SELECT column_name
 FROM table_name;
 
-Select All Columns
+Example:
+
 SELECT * FROM students;
 
-3. Selecting Specific Columns
+--------------------------------------------------
+
+SELECT SPECIFIC COLUMNS
+
 SELECT name, age FROM students;
 
-4. WHERE Clause (Filtering Data)
+--------------------------------------------------
+
+WHERE CLAUSE (FILTERING DATA)
 
 Used to filter rows based on conditions.
+
+Example:
 
 SELECT * FROM students
 WHERE age = 21;
 
-Comparison Operators
-Operator	Meaning
-=	Equal
-!=	Not Equal
->	Greater than
-<	Less than
->=	Greater than equal
-<=	Less than equal
-5. Logical Operators
-Operator	Meaning
-AND	Both conditions must be true
-OR	At least one condition true
-NOT	Reverse condition
-Example
+Common Operators:
+=   Equal
+!=  Not equal
+>   Greater than
+<   Less than
+>=  Greater than equal
+<=  Less than equal
+
+--------------------------------------------------
+
+LOGICAL OPERATORS
+
+AND  -> both conditions must be true
+OR   -> at least one condition true
+NOT  -> reverse condition
+
+Example:
+
 SELECT * FROM students
 WHERE grade = 'A' AND marks > 85;
 
-6. BETWEEN
+--------------------------------------------------
+
+BETWEEN
+
 SELECT * FROM students
 WHERE age BETWEEN 20 AND 22;
 
-7. IN Operator
+--------------------------------------------------
+
+IN OPERATOR
+
 SELECT * FROM students
 WHERE city IN ('Delhi', 'Mumbai', 'Pune');
 
-8. LIKE (Pattern Matching)
-Pattern	Meaning
-'A%'	Starts with A
-'%a'	Ends with a
-'%or%'	Contains "or"
+--------------------------------------------------
+
+LIKE (PATTERN MATCHING)
+
+'A%'   -> starts with A
+'%a'   -> ends with a
+'%or%' -> contains "or"
+
+Example:
+
 SELECT * FROM students
 WHERE name LIKE 'A%';
 
-9. ORDER BY (Sorting)
-Ascending
-SELECT * FROM students ORDER BY age ASC;
+--------------------------------------------------
 
-Descending
-SELECT * FROM students ORDER BY marks DESC;
+ORDER BY (SORTING)
 
-10. LIMIT & OFFSET
-Top N rows
+Ascending:
+
+SELECT * FROM students
+ORDER BY age ASC;
+
+Descending:
+
+SELECT * FROM students
+ORDER BY marks DESC;
+
+--------------------------------------------------
+
+LIMIT & OFFSET
+
+Top N rows:
+
 SELECT * FROM students
 ORDER BY marks DESC
 LIMIT 3;
 
-Pagination
+Pagination (skip rows):
+
 SELECT * FROM students
 ORDER BY marks DESC
 LIMIT 3 OFFSET 1;
 
-📊 Dataset Used
+--------------------------------------------------
+
+DATASET USED
 
 Table: students
 
 Columns:
-
 id
-
 name
-
 age
-
 grade
-
 city
-
 marks
 
-📈 Key Learnings
+--------------------------------------------------
 
-SELECT is the foundation of SQL
+KEY LEARNINGS
 
-WHERE filters rows
+- SELECT is the foundation of SQL
+- WHERE filters rows
+- ORDER BY sorts data
+- LIKE helps in pattern searching
+- LIMIT helps in top N analysis
 
-ORDER BY sorts data
+--------------------------------------------------
 
-LIKE helps in pattern searching
+REAL WORLD USE CASES
 
-LIMIT helps in top-N analysis
+- User filtering in applications
+- Customer segmentation
+- Top performer analysis
+- Dashboard queries
+- Data cleaning
 
-🌍 Real World Use Cases
+--------------------------------------------------
 
-User filtering in applications
-
-Customer segmentation
-
-Top performer analysis
-
-Dashboard queries
-
-Data cleaning
-
-🏁 Summary
+SUMMARY
 
 Day 1 focused on core SQL retrieval concepts.
 
 These basics are essential for:
+- Data Analytics
+- Backend systems
+- Product analytics
+- Business intelligence
 
-Data Analytics
+--------------------------------------------------
 
-Backend systems
+NEXT STEP
 
-Product analytics
-
-Business intelligence
-
-🔜 Next Step
-
-➡️ Day 2 – WHERE Conditions Deep Dive
+Day 2 – WHERE Conditions Deep Dive
