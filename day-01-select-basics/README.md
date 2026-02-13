@@ -39,7 +39,7 @@ Columns:
 
 ---
 
-## 🧠 What I Learned
+## What I Learned
 
 - How to retrieve full data from a table
 - How to filter records using conditions
@@ -49,7 +49,7 @@ Columns:
 
 ---
 
-## 🚀 Real World Use Cases
+## Real World Use Cases
 
 - Filtering users in applications
 - Finding top customers
