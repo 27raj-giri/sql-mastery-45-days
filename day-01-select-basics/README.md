@@ -59,7 +59,7 @@ Columns:
 
 ---
 
-## 📂 Files in this folder
+## Files in this folder
 
 | File | Description |
 |------|-------------|
@@ -69,7 +69,7 @@ Columns:
 
 ---
 
-## 🔥 Status
+## Status
 
 ✅ Completed  
 📌 Day 1 of 45 SQL Mastery Journey
