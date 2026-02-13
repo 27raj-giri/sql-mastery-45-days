@@ -1,11 +1,11 @@
-# 📅 Day 1 – SELECT Basics
+# Day 1 – SELECT Basics
 
-## 🎯 Goal
+## Goal
 Learn how to retrieve data using basic SQL SELECT queries.
 
 ---
 
-## 📚 Topics Covered
+## Topics Covered
 - SELECT *
 - Selecting specific columns
 - Basic WHERE filtering
@@ -14,7 +14,7 @@ Learn how to retrieve data using basic SQL SELECT queries.
 
 ---
 
-## 🗂 Dataset Used
+## Dataset Used
 Table: `students`
 
 Columns:
